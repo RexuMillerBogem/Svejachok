@@ -1,0 +1,25 @@
+﻿<Window x:Class="Fresh.Goods"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fresh"
+        mc:Ignorable="d"
+        Title="Goods" Height="250" Width="600">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="8,14,0,0" TextWrapping="Wrap" Text="Наименование" VerticalAlignment="Top"/>
+        <TextBox x:Name="name" HorizontalAlignment="Left" Height="23" Margin="106,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="31,53,0,0" TextWrapping="Wrap" Text="Высота" VerticalAlignment="Top"/>
+        <TextBox x:Name="height" HorizontalAlignment="Left" Height="23" Margin="106,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="31,98,0,0" TextWrapping="Wrap" Text="Глубина" VerticalAlignment="Top"/>
+        <TextBox x:Name="widh" HorizontalAlignment="Left" Height="23" Margin="106,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="31,143,0,0" TextWrapping="Wrap" Text="Ширина" VerticalAlignment="Top"/>
+        <TextBox x:Name="deph" HorizontalAlignment="Left" Height="23" Margin="106,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="300,13,0,0" TextWrapping="Wrap" Text="Количество в упаковке" VerticalAlignment="Top"/>
+        <TextBox x:Name="packing_count" HorizontalAlignment="Left" Height="23" Margin="433,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="329,56,0,0" TextWrapping="Wrap" Text="Срок годности" VerticalAlignment="Top"/>
+        <TextBox x:Name="goods_life" HorizontalAlignment="Left" Height="23" Margin="433,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <Button Content="Создать" HorizontalAlignment="Left" Margin="467,146,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
+    </Grid>
+</Window>
